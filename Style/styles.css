@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .shop-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .shop-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .shop-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  button.buy-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button.buy-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #notification {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #e74c3c;
+  }
+  
