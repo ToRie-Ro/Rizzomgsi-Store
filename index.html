@@ -82,27 +82,29 @@ header h1 {
 }
 footer {
     font-family: "Dangrek", sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 20px;
 }
 .facebook-link, .exit-button {
     display: block;
     margin-top: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #45a049;
     font-size: 18px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
 }
 .facebook-link:hover, .exit-button:hover {
     background-color: #45a049;
+    transform: scale(1.1);
 }
 .menu {
     background-color: #ffffff;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -121,6 +123,57 @@ footer {
     font-size: 20px;
     color:rgb(255, 255, 255)
 }
+.telegram-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+}
+.telegram-icon {
+    width: 30px; /* Adjust size */
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+.telegram-link:hover {
+    transform: scale(1.1);
+}
+.facebook2-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+}
+/* Facebook Icon */
+.facebook-icon {
+    width: 30px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+.facebook2-link:hover {
+    transform: scale(1.1);
+}
+.icon-rizz {
+    transition: transform 0.2s ease-in-out;
+}
+.icon-rizz:hover {
+    transform: scale(1.1);
+}
 </style>    
 <body>
     
@@ -128,7 +181,9 @@ footer {
 
     <!-- Header with Shop Name and Logo -->
     <header>
-        <img src="image/Rizzomgsi Store.jpg" alt="">
+        <div class="icon-rizz">
+            <img src="image/Rizzomgsi Store.jpg" alt="">
+        </div>   
         <h1 class="bordy-title">Rizzomgsi Store</h1>
     </header>
 
@@ -313,6 +368,16 @@ footer {
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Rizzomgsi Store</p>
-        <a href="https://www.facebook.com/profile.php?id=61573877070654">Developer by ZeZer</a>
+            <p>&copy; 2025 Rizzomgsi Store</p>   
+            <a href="https://t.me/rizzomg" class="telegram-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" class="telegram-icon">
+                Join Telegram
+            <a>
+  
+        <div class="gui-box">
+            <a href="https://www.facebook.com/profile.php?id=61573877070654" class="facebook2-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="facebook-icon">
+                Developer by ZeZer
+            </a>
+        </div>
     </footer>
