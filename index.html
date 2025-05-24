@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rizzomgsi Store</title>
-    <link rel="icon" type="image/png" href="image/rizzomgsi-store.png">
-    <link rel="icon" type="image/x-icon" href="image/rizzomgsi-store.ico">
+    <title>Rizzomgsi Shop</title>
+    <link rel="icon" type="image/png" href="image/rizzomgsblacki.png">
+    <link rel="icon" type="image/x-icon" href="image/rizzomgsiblack.ico">
     <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
@@ -106,12 +106,27 @@ footer {
     background-color: #ffffff;
     color: rgb(255, 255, 255);
     border: none;
-    padding: 10px 20px;
+    padding: 0px 0px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
     transition: background-color 0.3s;
     text-align: center;
+}
+
+/* Remove bullet from list item */
+.hello {
+    list-style: none;
+}
+
+/* Style the anchor tag inside */
+.hello a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Removes underline */
+}
+
+/* Optional: Add hover effect */
+.hello a:hover {
+    color: lightgray;
 }
 .bordy-title {
     font-family: Dangrek;
@@ -121,7 +136,7 @@ footer {
 .hello {
     font-family: Dangrek;
     font-size: 20px;
-    color:rgb(255, 255, 255)
+    color:rgb(0, 0, 0)
 }
 .telegram-link {
     display: inline-block;
@@ -182,20 +197,23 @@ footer {
     <!-- Header with Shop Name and Logo -->
     <header>
         <div class="icon-rizz">
-            <img src="image/Rizzomgsi Store.jpg" alt="">
+            <img src="image/rizzomgsblacki.png" alt="">
         </div>   
-        <h1 class="bordy-title">Rizzomgsi Store</h1>
+        <h1 class="bordy-title">Rober Shop</h1>
     </header>
 
     <div id="menu" class="menu">
         <li class="hello"><a href="https://torie-ro.github.io/Rizzomgsi-Store-Fisch/">Fisch</a></li>
+        <li class="hello"><a href="#">Dead Rails</a></li>
+        <li class="hello"><a href="#">Dead Rails</a></li>
     </div>
+
 
     <!-- Main Container for Products -->
     <div class="container">
         <!-- Product 1 -->
         <div class="product">
-            <img src="image/dragon.png" alt="">
+            <img src="image/dragon.png" alt="" title="Dragonheart">
             <h2>យកដាវ Dragonheart</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$5</div>
@@ -204,7 +222,7 @@ footer {
 
         <!-- Product 2 -->
         <div class="product">
-            <img src="image/cdk.png" alt="">
+            <img src="image/cdk.png" alt="" title="CDK">
             <h2>យកដាវ CDK</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$3</div>
@@ -213,7 +231,7 @@ footer {
 
         <!-- Product 3 -->
         <div class="product">
-            <img src="image/yama.png" alt="">
+            <img src="image/yama.png" alt="" title="Yama">
             <h2>យកដាវ Yama</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -221,8 +239,8 @@ footer {
         </div>
 
         <!-- Product 4 -->
-        <div class="product">
-            <img src="image/tta.png" alt="">
+        <div class="product">"
+            <img src="image/tta.png" alt="" title="Tus">
             <h2>យកដាវ Tushita</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -231,7 +249,7 @@ footer {
 
         <!-- Product 5 -->
         <div class="product">
-            <img src="image/skark.png" alt="">
+            <img src="image/skark.png" alt="" title="Shark Anchor">
             <h2>យកដាវ Shark Anchor</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$3</div>
@@ -240,7 +258,7 @@ footer {
 
         <!-- Product 6 -->
         <div class="product">
-            <img src="image/truetriplekatana.png" alt="">
+            <img src="image/truetriplekatana.png" alt="" title="True Triple Katana">
             <h2>យកដាវបីដើម</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$5</div>
@@ -249,7 +267,7 @@ footer {
 
         <!-- Product 7 -->
         <div class="product">
-            <img src="image/fullgears.png" alt="">
+            <img src="image/fullgears.png" alt="" title="Full Gear">
             <h2>Full gears</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$5</div>
@@ -258,7 +276,7 @@ footer {
 
         <!-- Product 8 -->
         <div class="product">
-            <img src="image/v1-v3.png/20px" alt="">
+            <img src="image/v1-v3.png/20px" alt="" title="Race v1-v3">
             <h2>Race v1-v3</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$1</div>
@@ -267,7 +285,7 @@ footer {
 
         <!-- Product 9 -->
         <div class="product">
-            <img src="image/bluegear.png" alt="">
+            <img src="image/bluegear.png" alt="" title="Blue Gear">
             <h2>Blue Gear</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -276,7 +294,7 @@ footer {
 
         <!-- Product 10 -->
         <div class="product">
-            <img src="image/Max.png" alt="">
+            <img src="image/Max.png" alt="" title="Max Lveel">
             <h2>Fram Level Max</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$1-2</div>
@@ -285,7 +303,7 @@ footer {
 
         <!-- Product 11 -->
         <div class="product">
-            <img src="image/maxmastery.png" alt="">
+            <img src="image/maxmastery.png" alt="" title="Mastery Max Level">
             <h2>Mastery Max</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$1.50</div>
@@ -294,7 +312,7 @@ footer {
         
         <!-- Product 12 -->
         <div class="product">
-            <img src="image/dojo.png" alt="">
+            <img src="image/dojo.png" alt="" title="Dojo">
             <h2>Dojo ៣ថ្ងៃ</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -303,7 +321,7 @@ footer {
 
         <!-- Product 13 -->
         <div class="product">
-            <img src="image/El.png" alt="">
+            <img src="image/El.png" alt="" title="Electric Claw">
             <h2>យកដៃ Electric Claw</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -312,7 +330,7 @@ footer {
 
         <!-- Product 14 -->
         <div class="product">
-            <img src="image/Dragontalon.png" alt="">
+            <img src="image/Dragontalon.png" alt="" title="Dragon Talon">
             <h2>យកដៃ Dragon Talon</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -321,7 +339,7 @@ footer {
 
         <!-- Product 15 -->
         <div class="product">
-            <img src="image/Godhuman.png" alt="">
+            <img src="image/Godhuman.png" alt="" title="Godhuman">
             <h2>យកដៃ Godhuman</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -330,7 +348,7 @@ footer {
         
         <!-- Product 16 -->
         <div class="product">
-            <img src="image/SanguineArt.png" alt="">
+            <img src="image/SanguineArt.png" alt="" title="Sanguine Art">
             <h2>យកដៃ Sanguine Art</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$5</div>
@@ -339,7 +357,7 @@ footer {
 
         <!-- Product 17 -->
         <div class="product">
-            <img src="image/Karate.png" alt="">
+            <img src="image/Karate.png" alt="" title="Sharkman Karate">
             <h2>យកដៃ Sharkman Karate</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -348,7 +366,7 @@ footer {
 
         <!-- Product 18 -->
         <div class="product">
-            <img src="image/Death Step.png" alt="">
+            <img src="image/Death Step.png" alt="" title="Death Step">
             <h2>យកដៃ Death Step</h2>
             <p class="hello">ឆាតទៅFacebook pageខ្ញុំនិងតម</p>
             <div class="price">$2</div>
@@ -369,7 +387,7 @@ footer {
     <!-- Footer -->
     <footer>
             <p>&copy; 2025 Rizzomgsi Store</p>   
-            <a href="https://t.me/rizzomg" class="telegram-link">
+            <a href="https://t.me/robershop" class="telegram-link">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" class="telegram-icon">
                 Join Telegram
             <a>
